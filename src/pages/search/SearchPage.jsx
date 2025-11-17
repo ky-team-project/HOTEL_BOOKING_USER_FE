@@ -1,6 +1,6 @@
 const SearchPage = () => {
   return (
-    <div>
+ <div className="top-container">
       <h1>Search Page</h1>
     </div>
   );

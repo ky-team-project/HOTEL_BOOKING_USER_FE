@@ -15,9 +15,9 @@ const Header = () => {
           <NavLink to="/search" className={({ isActive }) => (isActive ? "active" : "")}>
             호텔검색
           </NavLink>
-          <NavLink to="/mypage" className={({ isActive }) => (isActive ? "active" : "")}>
+          {/* <NavLink to="/mypage" className={({ isActive }) => (isActive ? "active" : "")}>
             마이페이지
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/support" className={({ isActive }) => (isActive ? "active" : "")}>
             고객센터
           </NavLink>

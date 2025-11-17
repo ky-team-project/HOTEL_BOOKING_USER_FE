@@ -1,6 +1,8 @@
+
 const HomePage = () => {
   return (
-    <div>
+    // 임시 클래스
+    <div className="top-container">
       <h1>Home Page</h1>
     </div>
   );
