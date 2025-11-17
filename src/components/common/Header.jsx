@@ -1,9 +1,10 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "../../styles/components/common/Header.scss";
 const Header = () => {
   return (
     <header className="site-header">
-      <div className="container">
+      <div className="inner">
         {/* 로고 영역 */}
         <h1 className="logo">
           <Link to="/">HotelHub</Link>
